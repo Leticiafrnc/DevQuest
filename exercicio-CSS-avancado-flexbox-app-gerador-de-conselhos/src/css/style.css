@@ -18,6 +18,7 @@ body,html {
 .container p{
     color: var(--advice-dice-color) ;
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
 .container h1{
     color: var(--text-color);
