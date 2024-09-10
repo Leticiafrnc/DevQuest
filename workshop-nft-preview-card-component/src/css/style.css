@@ -1,0 +1,82 @@
+body{
+    background-color: var(--neutral-dark);
+    font-family: 'Outfit', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.nft-card{
+    max-width: 350px;
+    background-color:var(--neutral-medium);
+    border-radius:15px;
+    padding: 25px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+.title-link .title{
+    color: #fff;
+    font-size: 22px;
+    margin: 20px 0 20px;
+}
+.about{
+    color: var(--primary-soft);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 23px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+.info .price{
+    color: var(--primary-medium);
+}
+.info .price::before{
+    content:'' ;
+    background-image: url('../images/icon-ethereum.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.info .days-left::before{
+    content:'' ;
+    background-image: url('../images/icon-clock.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.info .days-left{
+    color: var(--primary-soft);
+}
+.creator{
+    display: flex;
+    align-items: center;  
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+}
+.creator .avatar{
+    max-width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.creator .text{
+    color: var(--primary-soft);
+}
+.creator .text .name{
+    color: white;
+}

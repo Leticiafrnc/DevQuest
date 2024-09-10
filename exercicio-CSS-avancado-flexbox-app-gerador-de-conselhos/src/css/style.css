@@ -1,0 +1,50 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color)
+}
+.container{
+        text-align: center;
+        background-color: var(--advice-card-color);
+        border: 1px solid var(--background-color);
+        border-radius: 5px;
+        width: 330px;
+        height: 250px;
+        padding: 20px;
+}
+.container p{
+    color: var(--advice-dice-color) ;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.container h1{
+    color: var(--text-color);
+    margin-top: 20px;
+    
+}
+.container .linha::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid var(--text-color); 
+    margin-top: 40px; 
+  }
+  
+  .container .img{
+    width: 80px;
+    height: 80px;
+    margin-left: 124px;
+    margin-top: 1px;
+    background-image: url('../src/images/img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  }
+ 
+  
+
+
+
+

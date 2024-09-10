@@ -1,0 +1,74 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color)
+}
+
+.container {
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid var(--background-color);
+    border-radius: 5px;
+}
+
+
+.conteudo {
+    width: 330px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.conteudo .nome {
+    color: var(--text-color);
+    margin-top: 10px;
+
+}
+
+.conteudo .cidade {
+    margin-top: 15px;
+    color: var(--text-color);
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    background-image: url("../imagens/foto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    left: 33%;
+    bottom: 10px;
+
+}
+
+.linha {
+    width: 100%;
+    border-bottom: 2px solid var(--text-color);
+    margin-top: 20px;
+
+}
+
+.numero {
+    font-weight: 700;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-color);
+    align-items: center;
+}
+
+.texto {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-color);
+}

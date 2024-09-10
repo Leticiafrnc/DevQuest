@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    margin: 40px;
+}
+#p1{
+    background:#F5F5F5;
+    
+}
+#p2{
+    background: #F0CCE2;
+
+}

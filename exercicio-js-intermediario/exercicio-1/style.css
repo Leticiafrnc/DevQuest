@@ -1,0 +1,15 @@
+.quadrado-azul{
+    height:100px;
+    width: 100px;
+    background-color: blue;
+}
+.quadrado-vermelho{
+    height:100px;
+    width: 100px;
+    background-color: red;
+}
+.quadrado-amarelo{
+    height:100px;
+    width: 100px;
+    background-color: yellow;
+}
